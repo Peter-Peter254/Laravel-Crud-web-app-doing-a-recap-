@@ -9,3 +9,10 @@ Route::get('/', function () {
 });
 Route::resource('students','\App\Http\Controllers\StudentController');
 Route::get('/',[App\Http\Controllers\HomeController::class,'index'])->name('home');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

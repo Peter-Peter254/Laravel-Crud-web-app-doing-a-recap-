@@ -1,6 +1,5 @@
-@extends('Header')
-@section('title',"Update student details")
-@section('pagecontent')
+@extends('layouts.app')
+@section('content')
 <div class="card px-5 py-5" style="margin:auto;width:50%" >
     <div class="card-header">Insert a student here</div>
     @if($errors->any())

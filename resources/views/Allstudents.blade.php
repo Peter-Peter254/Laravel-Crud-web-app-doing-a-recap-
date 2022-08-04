@@ -1,6 +1,5 @@
-@extends('Header')
-@section('title',"All students")
-@section('pagecontent')
+@extends('layouts.app')
+@section('content')
 
 <h1>Sample Crud</h1> 
 <div> 
