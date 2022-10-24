@@ -39,13 +39,10 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
+                        
                         <li class="nav-item" > 
                             
-                            <a class="nav-link" href="/homepage">Home</a>
-                        </li>
-                        <li class="nav-item" > 
-                            
-                            <a class="nav-link" href="/students">Add students</a>
+                            <a class="nav-link" href="/students">Review applications</a>
                         </li>
                          @guest
                        

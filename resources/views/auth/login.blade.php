@@ -2,12 +2,15 @@
 
 @section('content')
 <div class="container">
+
     <div class="row justify-content-center">
         <div class="col-md-6">
+        <h5 class="bg-danger py-3">Kindly login to review applications</h5>
             <div class="card">
                 <div class="card-header bg-info">{{ __('Login') }}</div>
 
                 <div class="card-body">
+                    
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 

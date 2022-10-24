@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="card px-5 py-5" style="margin:auto;width:50%" >
-    <div class="card-header">Insert a student here</div>
+    <div class="card-header">Edit this Internship Application</div>
     @if($errors->any())
      <div class="alert aler-danger">
         <strong>There were some problems with the input</strong>

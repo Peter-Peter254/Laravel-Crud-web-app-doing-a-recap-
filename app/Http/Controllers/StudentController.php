@@ -35,7 +35,7 @@ class StudentController extends Controller
             'fee' => 'required',
         ]);
         Student::create($request->all());
-        return redirect()->route('students.index')->with('success',"Student Created successfully");
+        return redirect()->route('students.index')->with('success',"Application Created successfully");
     }
 
     /**
@@ -72,7 +72,7 @@ class StudentController extends Controller
         $request->validate([]);
         
         $student->update($request->all());
-        return redirect()->route('students.index')->with('success','Student Updated Successfully');
+        return redirect()->route('students.index')->with('success','Application Updated Successfully');
     }
 
     /**
@@ -84,7 +84,7 @@ class StudentController extends Controller
     public function destroy(Student $student)
     {
         $student->delete();
-        return redirect()->route('students.index')->with('success','Student Deleted Successfully');
+        return redirect()->route('students.index')->with('success','Application Deleted Successfully');
 
     }
     public function showhomepage()
